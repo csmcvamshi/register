@@ -1,0 +1,22 @@
+.body{
+color: aliceblue;
+background-color: #000000;
+}
+.register{
+    border-radius: 30px;
+    color: rgb(255, 248, 248);
+    font-family: 'Franklin Gothic Medium';
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.registerbtn{
+    transition: transform 0.3s ease , color 0.3s ease, box-shadow 0.3s ease;
+
+}
+.registerbtn:hover{
+    background-color: rgb(172, 166, 166);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(255, 127, 212, 0.5) ;
+}
